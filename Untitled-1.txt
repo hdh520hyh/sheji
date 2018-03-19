@@ -1,0 +1,8 @@
+
+
+function update(args)
+{
+    var data = new Data();
+    AR.log(data.getMilliseconds());
+}
+AR.setInterval(update, 1);
